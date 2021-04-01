@@ -7,6 +7,7 @@ import bolaVerdeEscura from '../../Imagens/BolaVerdeEscura.svg'
 import bolaAzul from '../../Imagens/BolaAzul.svg'
 import bolaPreta from '../../Imagens/BolaPreta.svg'
 import bolaMarron from '../../Imagens/BolaMarron.svg'
+import {Link} from "react-router-dom"
 
 function Home(){
     return(
@@ -36,7 +37,7 @@ function Home(){
                             
                             <div className="home-parte-baixo">
                                 <button className="home-button" >Login</button>
-                                <label className="home-label-cadastro" href="">Cadastre-se</label>
+                                <Link className="home-label-cadastro" to="/cadastro">Cadastre-se</Link>
                             </div>
 
                         </div>
