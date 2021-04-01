@@ -1,0 +1,112 @@
+.home-body {
+    max-width: 1366px;
+    max-height: 871px;
+}
+
+
+.BoxPrincipal {
+    margin-top: 126px;
+    margin-left: 98px;
+    margin-right: 98px;
+    margin-bottom: 126px;
+    width: 82vw;
+    height: 71vh;
+    box-shadow: 0px 5px 8px rgba(0,0,0,0.5);
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.ParteDireita {
+    width: 59%;
+    height: 100%;
+    background-color: rgba(8, 99, 205);
+}
+
+.ParteEsquerda {
+    width: 41%;
+    height: 100%;
+    
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+}
+
+.ParteDireitaInterna {
+    margin-top: 53px;
+    
+}
+
+.home-inputs {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-around;
+
+}
+
+.home-input-1 {
+    text-shadow: rgba(0, 0, 0, 0.1);;
+    border-color: rgba(0, 0, 0, 0.1);
+    height: 13%;
+    width: 80%;
+    border-radius: 30px;
+    padding: 2%;
+    margin-bottom: 7%;
+    margin-top: 2%;
+}
+
+.home-input-2 {
+    border-color: rgba(0, 0, 0, 0.1);
+    height: 13%;
+    width: 80%;
+    border-radius: 30px;
+    padding: 2%;
+    margin-bottom: 7%;
+}
+.home-button{
+    border-color: rgba(0, 0, 0, 0.1);
+    height: 13%;
+    width: 28%;
+    border-radius: 30px;
+    padding: 2%;
+    margin-bottom: 7%;
+    color: white;
+    background-color: rgba(243, 107, 83, 1)
+}
+
+.home-label-cadastro {
+    color: white;
+}
+
+.home-titulo {
+    margin-left: 10%;
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.home-label-login {
+    color: white;
+    font-size: 300%;
+    font: roboto;
+    margin-bottom: 2%;
+    
+}
+.home-label-bem-vindo {
+    color: white;
+    font-size: 107%;
+    font: roboto;
+    margin-bottom: 2%;
+}
+
+.home-parte-baixo {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    
+}
