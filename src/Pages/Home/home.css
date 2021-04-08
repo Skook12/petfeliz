@@ -70,12 +70,17 @@
     margin-bottom: 7%;
 }
 .home-button{
+    min-height: 55px;
+    min-width: 203px;
+}
+
+.home-button button{
     border-color: rgba(0, 0, 0, 0.1);
-    height: 13%;
-    width: 28%;
-    border-radius: 30px;
-    padding: 2%;
-    margin-bottom: 7%;
+    height: 100%;
+    width: 100%;
+    padding: 7%;
+    border-radius: 25px;
+    margin-bottom: 5%;
     color: white;
     background-color: rgba(243, 107, 83, 1)
 }

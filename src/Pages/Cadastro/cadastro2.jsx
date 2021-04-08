@@ -1,7 +1,7 @@
 import React from 'react';
 import './cadastro.css';
 import imagem from '../../Imagens/AnimalCadastro.svg'
-import Formulario from '../Components/formularioCadastro'
+import Formulario from '../Components/formularioCadastro2'
 import {Link} from "react-router-dom"
 
 function Cadastro(){
@@ -31,10 +31,10 @@ function Cadastro(){
                             </div>
                             
                             <div className="cadastro-parte-baixo">
-                                <Link  className="cadastro-button" to="/cadastro2">
+                                <Link  className="cadastro-button" to="/home">
                                     <button >Cadastro</button>
                                 </Link>
-                                <Link className="cadastro-label-voltar" to="/home">voltar</Link>
+                                <Link className="cadastro-label-voltar" to="/cadastro">voltar</Link>
                             </div>
 
                         </div>
