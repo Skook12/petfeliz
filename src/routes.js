@@ -3,6 +3,7 @@ import {BrowserRouter, Switch, Route} from 'react-router-dom';
 import Home from './Pages/Home/index'
 import Cadastro from './Pages/Cadastro/cadastro'
 import Cadastro2 from './Pages/Cadastro/cadastro2'
+import ListaPet from './Pages/ListaPet/listaPet'
 
 const Routes = () =>(
     <BrowserRouter>
@@ -10,6 +11,7 @@ const Routes = () =>(
             <Route exact path="/home" component={Home} />
             <Route exact path="/cadastro" component={Cadastro} />
             <Route exact path="/cadastro2" component={Cadastro2} />
+            <Route exact path="/listapet" component={ListaPet} />
         </Switch>
     </BrowserRouter>
 );

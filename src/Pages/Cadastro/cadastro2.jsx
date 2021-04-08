@@ -4,7 +4,7 @@ import imagem from '../../Imagens/AnimalCadastro.svg'
 import Formulario from '../Components/formularioCadastro2'
 import {Link} from "react-router-dom"
 
-function Cadastro(){
+function Cadastro2(){
     return(
         <div className="cadastro-body">
             <div className = "tela">
@@ -47,4 +47,4 @@ function Cadastro(){
     );
 }
 
-export default Cadastro
+export default Cadastro2

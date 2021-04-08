@@ -36,7 +36,7 @@ function Home(){
                             </div>
                             
                             <div className="home-parte-baixo">
-                            <Link  className="home-button" to="/">
+                            <Link  className="home-button" to="/listapet">
                                     <button >Login</button>
                                 </Link>
                                 <Link className="home-label-cadastro" to="/cadastro">Cadastre-se</Link>
