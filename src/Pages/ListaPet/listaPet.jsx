@@ -8,11 +8,11 @@ function ListaPet(){
     return(
         <div className="listapet-body">
                 <div className="listapet-parte-cima-direita">
-                    <Link  className="listapet-button" to="/listapet">
-                                <button >Cadastre um Pet</button>
+                    <Link  className="listapet-button" to="/cadastropet">
+                                <button className="listapet-button-1"  >Cadastre um Pet</button>
                     </Link>
-                    <Link  className="listapet-button" to="/listapet">
-                                <button >Sair</button>
+                    <Link  className="listapet-button" to="/home">
+                                <button className="listapet-button-2" >Sair</button>
                     </Link>
                 </div>
                 <div className="listapet-parte-cima">

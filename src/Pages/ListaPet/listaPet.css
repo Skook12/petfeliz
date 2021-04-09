@@ -18,8 +18,8 @@
     align-items: center;
 }
 .listapet-button{
-    min-height: 70px;
-    min-width: 105px;
+    min-height: 10%;
+    min-width: 6%;
 }
 
 .listapet-button button{
@@ -29,7 +29,16 @@
     border-radius: 25px;
     margin-bottom: 5%;
     color: white;
-    background-color: rgba(243, 107, 83, 1);
+    justify-content: space-around;
+}
+.listapet-button-1{
+    background-color: rgba(78, 189, 234, 1);
+    
+}
+
+.listapet-button-2{
+    margin-left: 2%;
+    background-color: rgba(209, 0, 0, 1);
 }
 
 .listapet-inputs {
