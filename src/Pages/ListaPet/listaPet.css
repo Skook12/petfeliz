@@ -32,11 +32,13 @@
     justify-content: space-around;
 }
 .listapet-button-1{
+    outline: olive;
     background-color: rgba(78, 189, 234, 1);
     
 }
 
 .listapet-button-2{
+    outline: olive;
     margin-left: 2%;
     background-color: rgba(209, 0, 0, 1);
 }

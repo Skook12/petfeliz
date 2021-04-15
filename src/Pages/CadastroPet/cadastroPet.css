@@ -89,6 +89,7 @@
 }
 
 .cadastro-button button{
+    outline: olive;
     border-color: rgba(0, 0, 0, 0.1);
     height: 100%;
     width: 100%;

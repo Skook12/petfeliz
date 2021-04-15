@@ -47,7 +47,7 @@
     display: flex;
     flex-flow: column nowrap;
     justify-content: space-around;
-
+    outline: none;
 }
 
 .cadastro-input-1 {
@@ -59,9 +59,11 @@
     padding: 2%;
     margin-bottom: 3%;
     margin-top: 2%;
+    outline: none;
 }
 
 .cadastro-input-2 {
+    outline: none;
     text-shadow: rgba(0, 0, 0, 0.1);;
     border-color: rgba(0, 0, 0, 0.1);
     height: 13%;
@@ -71,6 +73,8 @@
     margin-bottom: 3%;
 }
 .cadastro-input-3 {
+    outline: none;
+    text-shadow: rgba(0, 0, 0, 0.1);;
     border-color: rgba(0, 0, 0, 0.1);
     height: 13%;
     width: 80%;
@@ -85,6 +89,7 @@
 }
 
 .cadastro-button button{
+    outline: olive;
     border-color: rgba(0, 0, 0, 0.1);
     height: 100%;
     width: 100%;

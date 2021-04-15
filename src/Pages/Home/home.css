@@ -59,6 +59,7 @@
     padding: 2%;
     margin-bottom: 7%;
     margin-top: 2%;
+    outline: none;
 }
 
 .home-input-2 {
@@ -68,6 +69,7 @@
     border-radius: 30px;
     padding: 2%;
     margin-bottom: 7%;
+    outline: none;
 }
 .home-button{
     min-height: 55px;
@@ -75,6 +77,7 @@
 }
 
 .home-button button{
+    outline: olive;
     border-color: rgba(0, 0, 0, 0.1);
     height: 100%;
     width: 100%;
@@ -83,6 +86,7 @@
     margin-bottom: 5%;
     color: white;
     background-color: rgba(243, 107, 83, 1)
+    
 }
 
 .home-label-cadastro {
