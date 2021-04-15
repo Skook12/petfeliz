@@ -2,6 +2,7 @@ import React from 'react';
 import './cadastroPet.css';
 import imagem from '../../Imagens/animalCadastroPet.svg'
 import Formulario from '../Components/formularioCadastroPet2'
+import ImageInput from '../Components/imageInput'
 import {Link} from "react-router-dom"
 
 function CadastroPet(){
@@ -27,6 +28,11 @@ function CadastroPet(){
                                 <Formulario>
                                     
                                 </Formulario>
+                                <div className="ParteImageInput">
+                                    <ImageInput>
+                                    
+                                    </ImageInput>
+                                </div>
                                 
                             </div>
                             
