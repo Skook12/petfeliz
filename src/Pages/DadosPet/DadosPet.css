@@ -1,4 +1,4 @@
-.listapet-body {
+.dadospet-body {
     margin-left: 98px;
     margin-right: 98px;
     max-width: 82vw;
@@ -6,23 +6,65 @@
     box-shadow: 0px 5px 8px rgba(0,0,0,0.5);
 }
 
-.listapet-parte-cima-direita{
+.dadospet-parte-baixo-direita {
     display: flex;
     flex-flow: row wrap ;
     align-items: baseline;
     justify-content: flex-end;
 }
-.listapet-parte-cima{
+.dadospet-parte-cima {
+    height: 30%;
+    width: 100%;
+    background-color: rgba(8, 99, 205, 0.79);
+}
+
+.dadospet-imagem {
     display: flex;
     flex-flow: column;
     align-items: center;
 }
-.listapet-button{
+.dadospet-imagem img {
+    border-color: rgba(0, 0, 0, 0.1);
+    background-color: white;
+    border-radius: 50%;
+    box-shadow: black;
+    margin-top: 8%;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+.dadospet-NomeTipo {
+    margin-left: 4%;
+    display: flex;
+    flex-flow: column;
+    align-items: flex-start;
+}
+.dadospet-nome {
+    color: rgba(255, 255, 255, 1);
+    margin-bottom: 1%;
+}
+.dadospet-normal {
+    color: rgba(220, 255, 255, 1);
+    white-space: pre;
+    display: flex;
+    align-items: baseline;
+    font-size: 24px;
+}
+.dadaospet-texto-tipo {
+    color: rgba(255, 255, 255, 1);
+    display: flex;
+    flex-flow: row wrap;
+    align-items: flex-start;
+    align-items: baseline;
+    margin-bottom: 2%;
+}
+.dadospet-button{
     min-height: 10%;
     min-width: 6%;
 }
 
-.listapet-button button{
+.dadospet-button button{
     border-color: rgba(0, 0, 0, 0.1);
     height: 10%;
     width: 100%;
@@ -31,66 +73,50 @@
     color: white;
     justify-content: space-around;
 }
-.listapet-button-1{
+.dadospet-button-1{
     background-color: rgba(78, 189, 234, 1);
     
 }
 
-.listapet-button-2{
+.dadospet-button-2{
     margin-left: 2%;
     background-color: rgba(209, 0, 0, 1);
 }
 
-.listapet-inputs {
-    margin-left: 16%;
-    height: 1%;
-    width: 95%;
+.dadospet-parte-baixo {
+    max-height: 100%;
+    margin-top: 10%;
+    margin-left: 8%;
+    margin-right: 8%;
     display: flex;
-    flex-flow: column nowrap;
-    justify-content: space-around;
-
+    flex-flow: column;
+    justify-content: space-between;
 }
 
-.listapet-input-1 {
-    text-shadow: rgba(0, 0, 0, 0.1);;
+.dadospet-button2 button{
+    margin-top: 4%;
+    margin-left: 30%;
+    flex-flow: column;
+    align-items: center;
+    outline: olive;
     border-color: rgba(0, 0, 0, 0.1);
     height: 1%;
-    width: 80%;
+    width: 35%;
+    padding: 1%;
     border-radius: 30px;
-    padding: 2%;
-    margin-bottom: 7%;
-    margin-top: 2%;
-    outline: none;
-}
-
-.ListPet {
-    height: 100%;
-    width: 100%;
-}
-
-.ListaPetOrganizar {
-    margin-left: 10%;
-    display: flex;
-    flex-flow: row;
-    margin-bottom: 3%;
-    align-items: flex-start;
-}
-
-.ListaPetTexto {
-    margin-left: 2%;
-    margin-top: 5%;
-    display: flex;
-    flex-flow: column wrap;
-    justify-items: top;
+    margin-bottom: 5%;
+    color: rgba(78, 189, 234, 1);
+    background-color: rgba(255, 255, 255, 1);
+    box-shadow: 0px 5px 8px rgba(0, 0, 0, 0.25);
+    text-decoration: none;
+    font-size: 25px;
     
 }
 
-.NomePet {
-    color: black;
-    font-size: 150%;
-    text-decoration: none;
+.dadospet-parte-baixo-titulo {
+    margin-bottom: 2%;
 }
 
-.ImagePet {
-    justify-content: space-around;
+.dadospet-parte-baixo-paragrafo {
+    margin-bottom: 4%;
 }

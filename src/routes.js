@@ -6,7 +6,7 @@ import Cadastro2 from './Pages/Cadastro/cadastro2'
 import ListaPet from './Pages/ListaPet/listaPet'
 import CadastroPet from './Pages/CadastroPet/cadastroPet'
 import CadastroPet2 from './Pages/CadastroPet/cadastroPet2'
-import DadosPet from './Pages/DadosPet/DadosPet'
+import DadosPet from './Pages/DadosPet/dadosPet'
 
 const Routes = () =>(
     <BrowserRouter>
